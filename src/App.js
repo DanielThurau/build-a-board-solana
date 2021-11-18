@@ -25,8 +25,6 @@ const arr = Object.values(kp._keypair.secretKey);
 const secret = new Uint8Array(arr);
 const baseAccount = web3.Keypair.fromSecretKey(secret);
 
-
-
 // Constants
 const TWITTER_HANDLE = 'DanielNThurau';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
@@ -37,6 +35,7 @@ const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 'https://build-a-board-bucket.s3.us-west-1.amazonaws.com/ofUXJt4EssI.jpg',
 'https://build-a-board-bucket.s3.us-west-1.amazonaws.com/oJrTZGV8DZY.jpg'
 */
+
 const KING_PIC = "https://build-a-board-bucket.s3.us-west-1.amazonaws.com/rmLI9kg_ppE.jpg";
 
 const App = () => {
@@ -71,7 +70,6 @@ const App = () => {
             console.error(error);
         }
     }
-
 
     const connectWallet = async () => {
         try {
@@ -186,7 +184,6 @@ const App = () => {
         }
     }
 
-
     const renderNotConnectedContainer = () => (
         <button
             className="cta-button connect-wallet-button"
@@ -206,10 +203,7 @@ const App = () => {
                 </div>
             );
         } else {
-
             return (
-
-
                 <div className="connected-container">
                     <div className="king-pic-container">
                         <div className="king-pic-item">
@@ -265,7 +259,6 @@ const App = () => {
         }
     };
 
-
     useEffect(() => {
         window.addEventListener('load', async (event) => {
             await checkIfWalletConnected();
@@ -273,7 +266,6 @@ const App = () => {
     }, [checkIfWalletConnected]);
 
     return (
-        
         <div className="App">
 			{/* This was solely added for some styling fanciness */}
 			<div className={walletAddress ? 'authed-container' : 'container'}>                

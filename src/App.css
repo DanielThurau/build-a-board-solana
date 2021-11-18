@@ -37,11 +37,9 @@
 .header3 {
     padding: 10px;
     margin: 0;
-    /* font-size: 20px; */
     font-weight: bold;
     color: white;
     text-align: left;
-
 }
 
 .sub-text {
@@ -151,35 +149,32 @@
     width: 450px;
     border-radius: 10px;
     object-fit: contain;
-  
 }
 
 .connected-container input[type='text'] {
-  display: inline-block;
-  color: white;
-  padding: 10px;
-  width: 50%;
-  height: 60px;
-  font-size: 16px;
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.25);
-  border: none;
-  border-radius: 10px;
-  margin: 50px auto;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    height: 60px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+    margin: 50px auto;
 }
 
 .connected-container button {
   height: 50px;
 }
 
-.address-copy-button {
-    
+.address-copy-button {    
     background:none;
     border:none; 
     cursor: pointer;
     padding: 10px;
     margin: 0;
-    /* font-size: 20px; */
     font-weight: bold;
     color: white;
     text-align: left;
