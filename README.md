@@ -6,10 +6,6 @@ build-a-board-solana is the React App for the Build-A-Board Web3 application. It
 
 - [buildaboard](https://github.com/DanielThurau/buildaboard/)
 
-
-
-## Tech Used
-
 ## Installation
 
 ### Required Tools
@@ -29,6 +25,14 @@ $ cd build-a-board
 ### Usage
 
 Navigate to https://replit.com/@DanielThurau/build-a-board-solana and start the development server.
+
+## Screen Shots
+
+![Homepage](./public/home.png)
+
+![Submission](./public/submission.png)
+
+![Upvotes](./public/upvotes.png)
 
 
 ## Credits
